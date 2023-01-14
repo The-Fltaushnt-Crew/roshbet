@@ -1,5 +1,7 @@
 * {
   margin: 0;
+  --footer-max-height: 200px;
+  --navbar-max-height: 200px;
 }
 
 body {
@@ -8,6 +10,18 @@ body {
   background: rgb(144, 4, 4);
   color: white;
   font-size: 1.3em;
+}
+
+main {
+  min-height: calc(100vh - var(--footer-max-height) - var(--navbar-max-height));
+}
+
+footer {
+  height: var(--footer-max-height);
+}
+
+nav {
+  height: var(--navbar-max-height);
 }
 
 footer,
