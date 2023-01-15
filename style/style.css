@@ -14,6 +14,7 @@ body {
 
 main {
   min-height: calc(100vh - var(--footer-max-height) - var(--navbar-max-height));
+  max-width: 90vw;
 }
 
 footer {
@@ -52,9 +53,7 @@ footer {
   display: flex;
   flex-direction: row;
   width: 100%;
-  padding: 50px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 50px;
 }
 
 h1 {
