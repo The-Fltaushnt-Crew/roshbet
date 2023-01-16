@@ -1,7 +1,5 @@
 * {
   margin: 0;
-  --footer-max-height: 200px;
-  --navbar-max-height: 200px;
 }
 
 body {
@@ -13,16 +11,14 @@ body {
 }
 
 main {
-  min-height: calc(100vh - var(--footer-max-height) - var(--navbar-max-height));
   max-width: 90vw;
 }
 
 footer {
-  height: var(--footer-max-height);
-}
-
-nav {
-  height: var(--navbar-max-height);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 footer,
@@ -32,6 +28,7 @@ nav {
   padding: 0px 30px 0px 30px;
   justify-content: space-between;
   align-items: center;
+  height: 100px;
 }
 
 header,
@@ -54,6 +51,8 @@ footer {
   flex-direction: row;
   width: 100%;
   margin: 50px;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
