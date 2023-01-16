@@ -1,7 +1,10 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
 * {
   margin: 0;
-  --footer-max-height: 200px;
-  --navbar-max-height: 200px;
 }
 
 body {
@@ -13,15 +16,14 @@ body {
 }
 
 main {
-  min-height: calc(100vh - var(--footer-max-height) - var(--navbar-max-height));
+  max-width: 90%;
 }
 
 footer {
-  height: var(--footer-max-height);
-}
-
-nav {
-  height: var(--navbar-max-height);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 
 footer,
@@ -52,9 +54,7 @@ footer {
   display: flex;
   flex-direction: row;
   width: 100%;
-  padding: 50px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin: 50px;
 }
 
 h1 {
