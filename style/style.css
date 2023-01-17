@@ -1,3 +1,14 @@
+:root{
+  --navbar-pixel-height: 100px;
+  --footer-pixel-height: 100px;
+}
+
+html {
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
 * {
   margin: 0;
 }
@@ -8,17 +19,18 @@ body {
   background: rgb(144, 4, 4);
   color: white;
   font-size: 1.3em;
+  height: 100%;
 }
 
 main {
-  max-width: 90vw;
+  display: flex;
+  min-height: calc(100% - var(--navbar-pixel-height) - var(--footer-pixel-height));
+  align-items: center;
+  justify-content: center;
 }
 
 footer {
-  position: fixed;
   bottom: 0;
-  left: 0;
-  width: 100%;
 }
 
 footer,
@@ -28,7 +40,7 @@ nav {
   padding: 0px 30px 0px 30px;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
+  height: var(--navbar-pixel-height);
 }
 
 header,
@@ -41,7 +53,6 @@ footer {
   color: #ffffff;
   display: flex;
   flex-direction: column;
-  margin-left: 50px;
   gap: 20px;
   flex-wrap: wrap;
 }
@@ -50,7 +61,6 @@ footer {
   display: flex;
   flex-direction: row;
   width: 100%;
-  margin: 50px;
   align-items: center;
   justify-content: center;
 }
