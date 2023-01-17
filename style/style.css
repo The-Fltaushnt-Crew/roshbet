@@ -117,3 +117,8 @@ th {
   margin: auto;
 }
 
+.flt-design{
+  padding-right: 50%;
+   /* Centrage pas propre */
+  width:125px; 
+}
