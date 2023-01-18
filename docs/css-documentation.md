@@ -1,8 +1,8 @@
-#FLT-CREW CSS STYLE DOC
+# FLT-CREW CSS STYLE DOC
 
 ## Les classes reutilisables (par ordre alphabétique)
 
-- **`.background-color`**
+- **`background-color`**
     - _Applique une couleur de background à l'élement selectionné_
 - **`border-bottom-white`**
     - _Ajoute une bordure blanche sur la bordure du dessous_
