@@ -63,8 +63,8 @@ h1 {
         rgba(254, 138, 77, 1) 1%,
         rgba(255, 53, 101, 1) 17%
     );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
 }
 
 p {
