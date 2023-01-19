@@ -3,6 +3,8 @@
         "ms-vscode.live-server",
         "esbenp.prettier-vscode",
         "eamodio.gitlens",
-        "editorconfig.editorconfig"
-    ]
+        "editorconfig.editorconfig",
+        "astro-build.astro-vscode"
+    ],
+    "unwantedRecommendations": []
 }
