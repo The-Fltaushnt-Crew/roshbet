@@ -1,0 +1,28 @@
+{
+  "name": "@example/basics",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Le meilleur site de bet basé sur l'humour",
+  "author": "The-Fltaushnt-Crew",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/The-Fltaushnt-Crew/roshbet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/The-Fltaushnt-Crew/roshbet/issues"
+  },
+  "homepage": "https://github.com/The-Fltaushnt-Crew/roshbet#readme",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^1.9.0"
+  }
+}
