@@ -17,6 +17,7 @@
   "homepage": "https://github.com/The-Fltaushnt-Crew/roshbet#readme",
   "scripts": {
     "dev": "astro dev",
+    "host": "astro dev --host",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
