@@ -1,7 +1,7 @@
 {
-  "name": "@example/basics",
+  "name": "roshbet",
   "type": "module",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "private": true,
   "description": "Le meilleur site de bet basé sur l'humour",
   "author": "The-Fltaushnt-Crew",
