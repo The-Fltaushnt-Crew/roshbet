@@ -132,6 +132,7 @@ td {
     flex-direction: column;
     gap: 20px;
     flex-wrap: wrap;
+    margin-left: 2%;
 }
 
 .intro-banner {
@@ -172,4 +173,23 @@ td {
 
 .flt-logo {
     width: 125px;
+}
+
+.animation-r {
+    background: linear-gradient(90deg, rgba(1, 0, 18, 1) 10%, rgba(7, 49, 88, 1) 50%, rgba(1, 0, 18, 1) 90%) padding-box,
+        linear-gradient(to right, rgba(176, 122, 236, 1) 5%, rgba(255, 53, 101, 1) 20%, rgba(254, 138, 77, 1) 65%, rgba(255, 53, 101, 1) 85%) border-box;
+    content: url(../images/r-logo-white-mini.png);
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    border: 5px solid transparent;
+    animation: spin 3s linear infinite;
+    margin-left: 95%;
+    margin-top: -100px;
+}
+
+@keyframes spin {
+    100%{
+        transform: rotateY(360deg);
+    }
 }
