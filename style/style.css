@@ -183,9 +183,7 @@ td {
     height: 3em;
     border-radius: 50%;
     border: 5px solid transparent;
-    animation: spin 3s linear infinite;
-    margin-left: 95%;
-    margin-top: -100px;
+    animation: spin 3s linear infinite;   
 }
 
 @keyframes spin {
