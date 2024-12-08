@@ -1,14 +1,13 @@
 ---
 import Layout from "../layouts/Layout.astro";
+
+import { Image } from 'astro:assets';
+import rosholBanner from '../assets/roshbet-banner1.png';
 ---
 
 <Layout>
     <section class="intro-banner">
-        <img
-            src="images/roshbet-banner1.png"
-            alt="roshol-nl1"
-            class="gradient-box"
-        />
+        <Image src={rosholBanner} alt="roshol-nl1" class="gradient-box"/>
         <!-- il faut séparer le bloc photo du bloc texte -->
         <div class="text color-white">
             <h1>Roshbet</h1>
